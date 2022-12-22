@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: gray; 
+    background: linear-gradient(to bottom, #585858, #3D3D3D); 
+    background-repeat: repeat-x;
+}
+h2 {padding-top: 210px;
+    font-size: 1.9em;
+    color: #272e34;
+}
+
+p {
+    padding: 15px; 
+    margin-top: 30px; 
+    color: gray;}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    align-content: center;
+    justify-content: center;
+}
+
+.block {
+    height: fit-content;
+    width: 250px;
+    min-width: 250px;
+    margin: 2% 3%;
+    border: 0px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    background-position: top;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.london {background-image: url('../images/London.jpg');}
+
+.newyork {background-image: url('../images/newyork.jpg');}
+
+.marrakesh {background-image: url(../images/marakesh.jpg);}
+
+.bott-l {margin-bottom: 0px;
+height: 50px;
+background-color:#FC0E70;
+border-bottom: 0px solid;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;}
+
+.bott-n {margin-bottom: 0px;
+    height: 50px;
+    background-color:#FF510A;
+    border-bottom: 0px solid;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;}
+
+.bott-m {margin-bottom: 0px;
+        height: 50px;
+        background-color:#00B640;
+        border-bottom: 0px solid;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding-left: 5px;
+    overflow: hidden;
+    margin-left: -10px;
+}
+
+li {border-right: 1px solid rgb(138, 125, 101);
+padding: 5px;
+overflow: hidden;
+font-size: 12px;
+text-transform: uppercase;}
+
+span {position: relative;
+    display: block;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+.r_m {color:#00B640;}
+
+.r_n {color:#FF510A;}
+
+.r_l {color:#FC0E70;}
+.r {border-right: 0px;}
